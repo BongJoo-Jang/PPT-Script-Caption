@@ -1,0 +1,35 @@
+# Do not publish personal presentations, speaker notes, or voice data.
+*.pptx
+*.ppt
+*.pptm
+*.pptcaptions.json
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mov
+*.webm
+*.zip
+*.log
+
+# Python / Windows
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.exe
+*.spec
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local settings, credentials
+.env
+.env.*
+settings.json
